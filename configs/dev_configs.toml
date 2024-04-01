@@ -1,1 +1,40 @@
+[hashids]
+length = 12
+secret = "6ab6122836cfef95f8db"
 
+[language]
+local = "en-us"
+
+[mail]
+host = "smtp.qq.com"
+pass = ""
+port = 465
+to = "yejh.1248@qq.com"
+user = "yejh.1248@qq.com"
+
+[mysql]
+
+[mysql.base]
+connmaxlifetime = 60
+maxidleconn = 60
+maxopenconn = 10
+
+[mysql.read]
+addr = "vm5.yejh.cn:3307"
+name = "go_gin_api"
+pass = "mysql20170419"
+user = "root"
+
+[mysql.write]
+addr = "vm5.yejh.cn:3307"
+name = "go_gin_api"
+pass = "mysql20170419"
+user = "root"
+
+[redis]
+addr = "vm5.yejh.cn:6379"
+db = "2"
+maxretries = 3
+minidleconns = 5
+pass = "redis20170419"
+poolsize = 10
