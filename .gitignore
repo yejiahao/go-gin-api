@@ -17,3 +17,5 @@
 
 # Project runtime log
 logs/*.log
+
+/configs/*.toml
